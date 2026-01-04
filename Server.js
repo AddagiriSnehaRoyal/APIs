@@ -94,4 +94,5 @@ app.delete("/delete-user/:email", async (req, res) => {
 // SERVER
 app.listen(3000, () => {
     console.log("Server running at http://localhost:3000");
+
 });
